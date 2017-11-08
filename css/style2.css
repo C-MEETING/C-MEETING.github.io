@@ -1,0 +1,1189 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+#wrap{
+    width: 100%;
+}
+
+#header{
+      
+      width:100%;
+      height:100vh;
+      background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/001.jpg), no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+}
+
+#header .C_border{
+    position: absolute;
+    top:48%;
+    left:30%;
+    margin: 0 auto;
+    display: table-cell;
+}
+
+#header .scroll_down{
+
+    
+    position: absolute;
+    bottom: 5%;
+    left:46%;
+}
+
+#header .scroll_down .scroll{
+    display: block;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    margin:0 auto;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 100px rgba(0,0,0,0.4);
+}
+
+
+#header #title{
+     
+     text-align: center;
+      font-size: 110px;
+      font-family: 'Josefin Sans', sans-serif;
+      color:white;
+      
+}
+
+#section{
+    background-color:#ededed;
+    padding-top: 0;
+    margin-top: 30px;
+    color:black;
+}
+
+#section_wrap{
+    margin-top: 30px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.above_title{
+    width: 60px;
+    height: 3px;
+    background-color: rgba(0,0,0, 0.7);
+    margin-bottom: 100px;
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+.people{
+    font-size: 60px;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    text-align: center;
+    color: rgba(0,0,0, 0.7);
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.people_list{
+    position: relative;
+    left; 10%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.people_list .list{
+    display: inline-block;
+     cursor: pointer;
+    -webkit-transition:0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition:0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.list:hover{
+    transform: scale(1.05);
+}
+
+.text{
+    width:100%;
+    height:100%;
+    position:relative;
+    
+ }
+
+.text .name{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 22px;
+    position:relative;
+    top:180px;
+    text-align: center;
+    color:white;
+}
+
+.list a{
+    text-decoration: none;
+    color:#fff;
+   
+}
+
+
+
+.text1{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/yong.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text2{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/sumin.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text3{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/shinhyo.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text4{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/sw.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text5{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/bohyun.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.text6{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/doyoung.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text7{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/sh.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.text8{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/ayoung.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: left;
+}
+
+.text9{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/jihyun.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.text10{
+     background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/yj.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+}
+
+.people_list .list{
+    margin:2px 0;
+    padding:0;
+    width: 255px;
+    height:255px;
+}
+
+#section2{
+    
+     width:100%;
+     height:960px;
+     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/about.jpg), no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     display: table;
+     margin-bottom: 120px;
+     text-align: center;
+}
+
+#section2 #about{
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    text-shadow: 3px 3px 100px rgba(0,0,0,0.4);
+}
+
+#section2 #about .above_title{
+    margin-bottom: -20px;
+    background-color: white;
+}
+
+#section2 #about .people{
+    color:white;
+}
+
+#section2 #about_context {
+   margin-bottom: 30px;
+}
+
+#section2 #about_context p{
+    font-weight: 100;
+    color: rgba(255,255,255, 0.7);
+}
+
+
+
+#section{
+     width:100%;
+     
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: table;
+      margin: 0 auto;
+      background-color: white;
+      text-align: center;
+}
+
+#section3{
+    width:100%;
+    margin-top: 120px;
+}
+
+.profile_detail{
+    margin:0 auto;
+    width: 1100px;
+    margin-top: 30px;
+
+}
+
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+   margin:0;
+   padding:0;
+   margin-top:100px;
+   margin-bottom: 30px;
+   width:1100px;
+   height:450px;
+}
+
+.box1 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/yong.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+.box1 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box1 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box1 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box1 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box1 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box1 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box1 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box1 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box1 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box1 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box1 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+.box2 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/sumin.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box2 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box2 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box2 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box2 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box2 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box2 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box2 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box2 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box2 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box2 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box2 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.box3 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/shinhyo.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box3 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box3 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box3 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box3 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box3 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box3 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box3 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box3 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box3 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box3 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box3 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box4 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/sw.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box4 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box4 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box4 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box4 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box4 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box4 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box4 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box4 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box4 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box4 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box4 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box5 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/bohyun.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box5 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box5 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box5 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box5 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box5 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box5 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box5 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box5 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box5 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box5 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box5 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.box6 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../img/doyoung.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+.box6 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box6 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box6 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box6 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box6 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box6 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box6 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box6 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box6 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box6 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box6 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+.box7 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/sh.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box7 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box7 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box7 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box7 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box7 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box7 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box7 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box7 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box7 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box7 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box7 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.box8 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/ayoung.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box8 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box8 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box8 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box8 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box8 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box8 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box8 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box8 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box8 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box8 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box8 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box9 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/jihyun.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box9 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box9 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box9 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box9 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box9 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box9 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box9 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box9 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box9 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box9 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box9 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box10 .img{
+    width: 320px;
+    height: 320px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+    background:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.10)), url(../img/yj.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    left: 120px;
+    bottom: 370px;
+}
+
+
+.box10 .profile_text_wrap{
+    position: relative;
+    left: 300px;
+    width: 800px;
+    height:350px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+.box10 .profile_text_wrap{
+    display: block;
+    text-align: left;
+}
+
+.box10 .profile_text_name{
+    display: block;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.box10 .profile_text_education{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box10 .profile_text_education li{
+    margin-bottom: 5px;
+}
+
+.box10 .profile_text_expertise{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box10 .profile_text_expertise li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box10 .profile_text_office{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box10 .profile_text_office li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box10 .profile_text_email{
+    width: 600px;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+}
+
+.box10 .profile_text_email li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+#footer{
+    margin: 0 auto;
+    width:100%;
+    height: 200px;
+    background: white;
+    border-top: 1px #ededed solid;
+    
+}
+
+#footer #logo{
+    display: block;
+     position:relative;
+     top:100px;
+     left: 10px;
+     
+}
+
+#footer #logo p{
+    font-size: 15px;
+    color: rgba(0,0,0, 0.7);
+}
+#footer #copyright{
+    position:relative;
+    top:130px;
+    left: 5px;
+    margin: 0 auto;
+    color: rgba(0,0,0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
